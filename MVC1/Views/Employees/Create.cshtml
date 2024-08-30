@@ -1,0 +1,29 @@
+﻿@model EmployeeVM
+@{
+    ViewData["Title"] = "Create";
+}
+@{
+    SelectList selectListItems = new SelectList(ViewBag.Departments,"id", "deptName");
+}
+<h1>Create</h1>
+
+<h4>Employee</h4>
+<hr />
+<div class="card">
+    <div class="card-body">
+        <form asp-action="Create">
+            <div class="row">
+                <partial name="_form" model="Model"></partial>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,29 @@
+﻿@model EmployeeVM
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+
+<h1>Edit</h1>
+
+<h4>Employee</h4>
+<hr />
+<div class="card">
+    <div class="card-body">
+        <form asp-route-id="@Model.id" asp-action="Edit">
+            <div class="row">
+                <partial name="_form" model="Model"></partial>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="m-2">Index</h1>
+
+<p>
+    <a class="btn btn-primary m-2" asp-action="Create">Create New</a>
+</p>
+
+
+<partial name="_card" model="Model"></partial>

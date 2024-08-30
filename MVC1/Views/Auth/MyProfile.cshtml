@@ -1,0 +1,42 @@
+﻿@model SignUpVM
+
+
+
+<div class="card">
+    <div class="card-body">
+        <form method="post" asp-action="MyProfile">
+            <div class="row">
+
+                <div class="form-group col-lg-6 mb-3">
+                    <label class="form-label" asp-for="Name"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group col-lg-6 mb-3">
+                    <label class="form-label" asp-for="Email"></label>
+                    <input asp-for="Email" class="form-control"/>
+                    <span class="text-danger" asp-validation-for="Email"></span>
+
+                </div>
+                <div class="form-group col-lg-6 mb-3">
+                    <label asp-for="Password" class="form-label"></label>
+                    <input asp-for="Password" class="form-control"/>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group col-lg-6 mb-3">
+                    <label asp-for="ConfirmPassword" class="form-label"></label>
+                    <input type="password" asp-for="ConfirmPassword" class="form-control" />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                <div class="form-group d-flex justify-content-end">
+                    <input type="submit" value="Update" class="btn btn-primary " />
+                </div>
+
+
+            </div>
+
+        </form>
+    </div>
+</div>
+
