@@ -1,0 +1,101 @@
+﻿@model IEnumerable<Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Add">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductImages)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductMainImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Productdiscount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductStockQuantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductSizes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductColours)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductRating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductImages)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductMainImage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Productdiscount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductStockQuantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductSizes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductColours)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductRating)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

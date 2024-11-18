@@ -1,0 +1,42 @@
+﻿@model ViewModels.LoginVM
+
+@{
+    Layout = "_Login_Signin_Layout";
+}
+
+
+<div class="form login">
+    <div class="form-content">
+        <header>Login</header>
+        <form asp-controller="Account" asp-action="Login" method="post">
+            <div class="field input-field">
+                <input asp-for="UserName" placeholder="User Name" class="input">
+                <span asp-validation-for="UserName" style="color:darkred;"></span>
+            </div>
+
+            <div class="field input-field">
+                <input asp-for="Password" placeholder="Password" class="password">
+                <i class='bx bx-hide eye-icon'></i>
+                <span asp-validation-for="Password" style="color:darkred;"> </span>
+            </div>
+
+            <div class="field button-field">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+
+        <div class="form-link">
+            <span>Don't have an account? <a asp-controller="Account" asp-action="Register" class="link signup-link">Signup</a></span>
+        </div>
+
+        <hr style="margin:20px" />
+        <div asp-validation-summary="All" style="color:darkred;"></div>
+    </div>
+
+
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

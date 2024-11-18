@@ -1,0 +1,15 @@
+﻿@using Models
+@model Product
+<!-- Start Column 2 -->
+<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+	<a class="product-item" asp-controller="ShoppingCart" asp-action="Add" asp-route-id="@Model.ProductId">
+		<img src="~/images/@Model.ProductMainImage" class="img-fluid product-thumbnail">
+		<h3 class="product-title">@Model.ProductName</h3>
+		<strong class="product-price">$@Model.ProductPrice</strong>
+
+		<span class="icon-cross">
+			<img src="~/images/cross.svg" class="img-fluid">
+		</span>
+	</a>
+</div>
+<!-- End Column 2 -->

@@ -1,0 +1,12 @@
+D:\WebApplication\E-Commerce DEPI\E-Commerce.Entities\bin\Release\net8.0\E-Commerce.Entities.deps.json
+D:\WebApplication\E-Commerce DEPI\E-Commerce.Entities\bin\Release\net8.0\E-Commerce.Entities.dll
+D:\WebApplication\E-Commerce DEPI\E-Commerce.Entities\bin\Release\net8.0\E-Commerce.Entities.pdb
+D:\WebApplication\E-Commerce DEPI\E-Commerce.Entities\obj\Release\net8.0\E-Commerce.Entities.csproj.AssemblyReference.cache
+D:\WebApplication\E-Commerce DEPI\E-Commerce.Entities\obj\Release\net8.0\E-Commerce.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebApplication\E-Commerce DEPI\E-Commerce.Entities\obj\Release\net8.0\E-Commerce.Entities.AssemblyInfoInputs.cache
+D:\WebApplication\E-Commerce DEPI\E-Commerce.Entities\obj\Release\net8.0\E-Commerce.Entities.AssemblyInfo.cs
+D:\WebApplication\E-Commerce DEPI\E-Commerce.Entities\obj\Release\net8.0\E-Commerce.Entities.csproj.CoreCompileInputs.cache
+D:\WebApplication\E-Commerce DEPI\E-Commerce.Entities\obj\Release\net8.0\E-Commerce.Entities.dll
+D:\WebApplication\E-Commerce DEPI\E-Commerce.Entities\obj\Release\net8.0\refint\E-Commerce.Entities.dll
+D:\WebApplication\E-Commerce DEPI\E-Commerce.Entities\obj\Release\net8.0\E-Commerce.Entities.pdb
+D:\WebApplication\E-Commerce DEPI\E-Commerce.Entities\obj\Release\net8.0\ref\E-Commerce.Entities.dll

@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{507CA606-652C-4985-A2CC-28170826F05F}|E-Commerce.API\\E-Commerce.API.csproj|d:\\webapplication\\e-commerce depi\\e-commerce.api\\e-commerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{507CA606-652C-4985-A2CC-28170826F05F}|E-Commerce.API\\E-Commerce.API.csproj|solutionrelative:e-commerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{507CA606-652C-4985-A2CC-28170826F05F}|E-Commerce.API\\E-Commerce.API.csproj|d:\\webapplication\\e-commerce depi\\e-commerce.api\\e-commerce.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{507CA606-652C-4985-A2CC-28170826F05F}|E-Commerce.API\\E-Commerce.API.csproj|solutionrelative:e-commerce.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E60E586-484D-4F6E-B4B0-6DC3CB00929B}|..\\E-Commerce.DAL\\E-Commerce.DAL.csproj|d:\\webapplication\\e-commerce depi\\e-commerce.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{507CA606-652C-4985-A2CC-28170826F05F}|E-Commerce.API\\E-Commerce.API.csproj|d:\\webapplication\\e-commerce depi\\e-commerce.api\\e-commerce.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{507CA606-652C-4985-A2CC-28170826F05F}|E-Commerce.API\\E-Commerce.API.csproj|solutionrelative:e-commerce.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{507CA606-652C-4985-A2CC-28170826F05F}|E-Commerce.API\\E-Commerce.API.csproj|d:\\webapplication\\e-commerce depi\\e-commerce.api\\e-commerce.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{507CA606-652C-4985-A2CC-28170826F05F}|E-Commerce.API\\E-Commerce.API.csproj|solutionrelative:e-commerce.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E60E586-484D-4F6E-B4B0-6DC3CB00929B}|..\\E-Commerce.DAL\\E-Commerce.DAL.csproj|d:\\webapplication\\e-commerce depi\\e-commerce.dal\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1C3EB2-5EDB-4EBF-8ADF-4EE8D13151C2}|..\\E-Commerce.Entities\\E-Commerce.Entities.csproj|d:\\webapplication\\e-commerce depi\\e-commerce.entities\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACAE1EC8-F05F-4270-99DD-52749490E020}|..\\E-Commerce.UI\\E-Commerce.UI.csproj|d:\\webapplication\\e-commerce depi\\e-commerce.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.API\\E-Commerce.API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "E-Commerce.API\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.API\\E-Commerce.API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "E-Commerce.API\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:06:59.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.API\\E-Commerce.API\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "E-Commerce.API\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.API\\E-Commerce.API\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "E-Commerce.API\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:16:20.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.Entities\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\E-Commerce.Entities\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.Entities\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\E-Commerce.Entities\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:54:26.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.DAL\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\E-Commerce.DAL\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.DAL\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\E-Commerce.DAL\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:15:48.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.API\\E-Commerce.API\\appsettings.json",
+              "RelativeDocumentMoniker": "E-Commerce.API\\appsettings.json",
+              "ToolTip": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.API\\E-Commerce.API\\appsettings.json",
+              "RelativeToolTip": "E-Commerce.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-26T22:11:32.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.API\\E-Commerce.API\\Program.cs",
+              "RelativeDocumentMoniker": "E-Commerce.API\\Program.cs",
+              "ToolTip": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.API\\E-Commerce.API\\Program.cs",
+              "RelativeToolTip": "E-Commerce.API\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T22:06:32.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.DAL\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\E-Commerce.DAL\\Repository\\UnitOfWork.cs",
+              "ToolTip": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.DAL\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\E-Commerce.DAL\\Repository\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T20:17:31.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.UI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\E-Commerce.UI\\Program.cs",
+              "ToolTip": "D:\\WebApplication\\E-Commerce DEPI\\E-Commerce.UI\\Program.cs",
+              "RelativeToolTip": "..\\E-Commerce.UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:19:26.338Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

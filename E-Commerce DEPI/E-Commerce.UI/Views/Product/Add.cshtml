@@ -1,0 +1,86 @@
+﻿@model Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+
+
+
+<div class="untree_co-section product-section before-footer-section">
+    <div class="container">
+        <h1>Create</h1>
+
+        <h4>Product</h4>
+        <hr />
+        <form asp-action="Add" enctype="multipart/form-data">
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            
+            <div class="row">
+                <div class="form-group col-4">
+                    <label asp-for="ProductName" class="control-label"></label>
+                    <input asp-for="ProductName" class="form-control" />
+                    <span asp-validation-for="ProductName" class="text-danger"></span>
+                </div>
+                <div class="form-group col-4">
+                    <label asp-for="ProductDesc" class="control-label"></label>
+                    <input asp-for="ProductDesc" class="form-control" />
+                    <span asp-validation-for="ProductDesc" class="text-danger"></span>
+                </div>
+                <div class="form-group col-4">
+                    <label asp-for="ProductImages" class="control-label"></label>
+                    <input asp-for="ProductImages" class="form-control" />
+                    <span asp-validation-for="ProductImages" class="text-danger"></span>
+                </div>
+                <div class="form-group  col-4">
+                    <label asp-for="ProductMainImage" class="control-label"></label>
+                    <input type="file" name="formFile" class="form-control" />
+                    <span asp-validation-for="ProductMainImage" class="text-danger"></span>
+                </div>
+                <div class="form-group col-4">
+                    <label asp-for="ProductPrice" class="control-label"></label>
+                    <input asp-for="ProductPrice" class="form-control" />
+                    <span asp-validation-for="ProductPrice" class="text-danger"></span>
+                </div>
+                <div class="form-group col-4">
+                    <label asp-for="Productdiscount" class="control-label"></label>
+                    <input asp-for="Productdiscount" class="form-control" />
+                    <span asp-validation-for="Productdiscount" class="text-danger"></span>
+                </div>
+                <div class="form-group col-4">
+                    <label asp-for="ProductStockQuantity" class="control-label"></label>
+                    <input asp-for="ProductStockQuantity" class="form-control" />
+                    <span asp-validation-for="ProductStockQuantity" class="text-danger"></span>
+                </div>
+                <div class="form-group col-4">
+                    <label asp-for="ProductSizes" class="control-label"></label>
+                    <input asp-for="ProductSizes" class="form-control" />
+                    <span asp-validation-for="ProductSizes" class="text-danger"></span>
+                </div>
+                <div class="form-group col-4">
+                    <label asp-for="ProductColours" class="control-label"></label>
+                    <input asp-for="ProductColours" class="form-control" />
+                    <span asp-validation-for="ProductColours" class="text-danger"></span>
+                </div>
+                <div class="form-group col-4">
+                    <label asp-for="ProductRating" class="control-label"></label>
+                    <input asp-for="ProductRating" class="form-control" />
+                    <span asp-validation-for="ProductRating" class="text-danger"></span>
+                </div>
+                <div class="form-group col-4">
+                    <label asp-for="CategoryId" class="control-label"></label>
+                    <select class="form-control" asp-for="CategoryId" asp-items="ViewBag.CategoryList">
+                        <option value="0">-- Select --</option>
+                    </select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
